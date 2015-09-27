@@ -4,7 +4,7 @@
 #
 Name     : oslo.utils
 Version  : 2.5.0
-Release  : 13
+Release  : 14
 URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-2.5.0.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-2.5.0.tar.gz
 Summary  : Oslo Utility library
@@ -24,6 +24,7 @@ BuildRequires : extras
 BuildRequires : extras-python
 BuildRequires : fixtures-python
 BuildRequires : flake8-python
+BuildRequires : funcsigs-python
 BuildRequires : hacking
 BuildRequires : iso8601
 BuildRequires : linecache2-python
@@ -77,6 +78,13 @@ oslo.utils
 %package python
 Summary: python components for the oslo.utils package.
 Group: Default
+Requires: Babel-python
+Requires: debtcollector-python
+Requires: monotonic-python
+Requires: netaddr-python
+Requires: oslo.i18n-python
+Requires: pytz-python
+Requires: six-python
 
 %description python
 python components for the oslo.utils package.
