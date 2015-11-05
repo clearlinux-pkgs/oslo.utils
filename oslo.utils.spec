@@ -4,7 +4,7 @@
 #
 Name     : oslo.utils
 Version  : 2.6.0
-Release  : 17
+Release  : 18
 URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-2.6.0.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-2.6.0.tar.gz
 Summary  : Oslo Utility library
