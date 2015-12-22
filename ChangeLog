@@ -1,6 +1,16 @@
 CHANGES
 =======
 
+3.3.0
+-----
+
+* Fix DeprecationWarning when call method delta_seconds
+* fix fnmatch.filter in non-posix system
+* fix fileutils ut code random failure
+* Add missing doc index for imageutils and fnmatch
+* re-implement thread safe fnmatch
+* Fix the bug of can't get the desired image info
+
 3.2.0
 -----
 
@@ -43,6 +53,7 @@ CHANGES
 2.7.0
 -----
 
+* Expose function signature fetching function
 * Allow 'forever_retry_uncaught_exceptions' to take in different defaults
 * Write document for each unit of oslo_utils.utils
 * Fix usage of "deprecated" markup in docstrings
