@@ -1,6 +1,15 @@
 CHANGES
 =======
 
+3.4.0
+-----
+
+* Updated from global requirements
+* Use assertTrue/False instead of assertEqual(T/F)
+* Add a mechanism to mask passwords in dictionaries
+* Add "configdrive" to the list of keys used by mask_password()
+* assertIsNone(val) instead of assertEqual(None,val)
+
 3.3.0
 -----
 
