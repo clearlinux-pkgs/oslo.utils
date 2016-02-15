@@ -4,7 +4,7 @@
 #
 Name     : oslo.utils
 Version  : 3.5.0
-Release  : 24
+Release  : 25
 URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.5.0.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.5.0.tar.gz
 Summary  : Oslo Utility library
