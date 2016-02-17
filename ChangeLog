@@ -1,11 +1,16 @@
 CHANGES
 =======
 
+3.6.0
+-----
+
+
 3.5.0
 -----
 
 * Updated from global requirements
 * Imported Translations from Zanata
+* Remove bandit.yaml in favor of defaults
 * Updated from global requirements
 * Narrow mock for getfilesystemencoding
 * Update translation setup
