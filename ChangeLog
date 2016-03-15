@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+3.7.0
+-----
+
+* Add method check_string_length
+* Add missing versionchanged for configdrive
+
 3.6.0
 -----
 
