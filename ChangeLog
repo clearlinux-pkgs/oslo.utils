@@ -1,11 +1,65 @@
 CHANGES
 =======
 
-3.8.0
------
+3.15.0
+------
+
+* Add basic docstrings to stopwatch has_started/stopped methods
+* Make mask_dict_password consistent with mask_password
+* Updated from global requirements
+* improve tests for mask_password and mask_dict_password
+* Simplify boolean expression in executils.py
+
+3.14.0
+------
+
+* Support json format output from qemu command
+* Fix flake8 issues
+* Use is_valid_ipv4 in get_ipv6_addr_by_EUI64
+* Imported Translations from Zanata
+
+3.13.0
+------
+
+* Allow assigning "0" to port
+
+3.12.0
+------
 
 * Updated from global requirements
-* Update .gitreview for stable/mitaka
+* Fix method split_path's docstring 'versionadded'
+* Updated from global requirements
+* Updated from global requirements
+* Avoid catching generic exception
+* Remove method total_seconds in timeuitls
+* Fix is_valid_cidr raises TypeError
+
+3.11.0
+------
+
+* Trivial: ignore openstack/common in flake8 exclude list
+* Move method split_path into oslo.utils
+
+3.10.0
+------
+
+* Imported Translations from Zanata
+* Updated from global requirements
+
+3.9.0
+-----
+
+* Imported Translations from Zanata
+* Provide single step check if eventlet is monkey_patched
+* Add method is_valid_cidr to netutils
+* Updated from global requirements
+* Updated from global requirements
+* Add importutils.import_any method
+* Add excutils.exception_filter
+* Explicitly exclude tests from bandit scan
+* Add CHAPPASSWORD to list of sanitize keys
+* Enable bandit in gate
+* Updated from global requirements
 
 3.7.0
 -----
