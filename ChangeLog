@@ -1,6 +1,17 @@
 CHANGES
 =======
 
+3.16.0
+------
+
+* Fix mask_dict_password for non string/dict type key in dict
+* More unit tests for specs matcher
+* Imported Translations from Zanata
+* Add Python 3.5 classifier and venv
+* Use an actual well defined parser for spec matching
+* Remove unused LOG to keep code clean
+* Updated from global requirements
+
 3.15.0
 ------
 
@@ -45,6 +56,7 @@ CHANGES
 
 * Imported Translations from Zanata
 * Updated from global requirements
+* Move nova extra_specs_ops to oslo.utils
 
 3.9.0
 -----
