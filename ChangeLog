@@ -1,6 +1,27 @@
 CHANGES
 =======
 
+3.17.0
+------
+
+* Add method is_valid_mac
+* Make method import_versioned_module work
+* Change assertTrue(isinstance()) by optimal assert
+* doc: Fix docstring of method bool_from_string
+* Change assertTrue(isinstance()) by optimal assert
+* Add method is_valid_boolstr
+* Add method is_valid_ipv6_cidr
+* Updated from global requirements
+* Updated from global requirements
+* Add missing specs_matcher documentation
+* Update homepage with developer documentation page
+* Updated from global requirements
+* Updated from global requirements
+* Add utils for validating and splitting quotes
+* Updated from global requirements
+* Extend specs matcher to support ">" and "<"
+* Remove discover from test-requirements
+
 3.16.0
 ------
 
