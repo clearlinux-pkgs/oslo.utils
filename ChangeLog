@@ -1,10 +1,22 @@
 CHANGES
 =======
 
+3.18.0
+------
+
+* Create dictutils and add 'flatten_dict_to_keypairs'
+* Updated from global requirements
+* Add reno for release notes management
+* Trivial fixes to the usage doc
+* Add threading<->eventlet compatible Event
+* Updated from global requirements
+* [TrivialFix] Replace 'assertEqual(None, ...)' with 'assertIsNone(...)'
+
 3.17.0
 ------
 
 * Add method is_valid_mac
+* Add __ne__ built-in function
 * Make method import_versioned_module work
 * Change assertTrue(isinstance()) by optimal assert
 * doc: Fix docstring of method bool_from_string
