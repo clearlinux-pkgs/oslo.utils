@@ -4,7 +4,7 @@
 #
 Name     : oslo.utils
 Version  : 3.18.0
-Release  : 37
+Release  : 38
 URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.18.0.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.18.0.tar.gz
 Summary  : Oslo Utility library
