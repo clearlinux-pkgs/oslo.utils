@@ -6,7 +6,7 @@
 #
 Name     : oslo.utils
 Version  : 3.18.0
-Release  : 40
+Release  : 41
 URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.18.0.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.18.0.tar.gz
 Source99 : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.18.0.tar.gz.asc
@@ -25,44 +25,11 @@ Requires: pbr
 Requires: pyparsing
 Requires: pytz
 Requires: six
-BuildRequires : GitPython-python
-BuildRequires : Jinja2
-BuildRequires : Pygments
-BuildRequires : Sphinx-python
-BuildRequires : bandit-python
-BuildRequires : configparser-python
-BuildRequires : coverage-python
-BuildRequires : debtcollector-python
-BuildRequires : discover-python
-BuildRequires : docutils-python
-BuildRequires : extras
-BuildRequires : extras-python
-BuildRequires : funcsigs-python
-BuildRequires : hacking
-BuildRequires : iso8601-python
-BuildRequires : monotonic-python
-BuildRequires : netaddr
-BuildRequires : netifaces-python
-BuildRequires : oslo.config
-BuildRequires : oslo.i18n-python
-BuildRequires : oslosphinx-python
-BuildRequires : oslotest-python
 BuildRequires : pbr
 BuildRequires : pip
-BuildRequires : pluggy
-BuildRequires : py-python
-BuildRequires : pyrsistent-python
-BuildRequires : pytest
 BuildRequires : python-dev
-BuildRequires : python-mimeparse-python
-BuildRequires : python-mock-python
 BuildRequires : python3-dev
-BuildRequires : pytz-python
 BuildRequires : setuptools
-BuildRequires : tox
-BuildRequires : traceback2-python
-BuildRequires : unittest2-python
-BuildRequires : virtualenv
 
 %description
 ==========
@@ -85,12 +52,12 @@ python components for the oslo.utils package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1489035107
+export SOURCE_DATE_EPOCH=1489273286
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
-export SOURCE_DATE_EPOCH=1489035107
+export SOURCE_DATE_EPOCH=1489273286
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
