@@ -1,12 +1,49 @@
 CHANGES
 =======
 
+3.23.0
+------
+
+* Updated from global requirements
+* [Fix gate]Update test requirement
+* Add missing documentation for secretutils
+* Updated from global requirements
+* Updated from global requirements
+* Update reno for stable/ocata
+
+3.22.0
+------
+
+* Remove references to Python 3.4
+* Added the token 'encrypted_key' to mask_password list
+* Add Constraints support
+
+3.21.0
+------
+
+* Allow 'get_all_class_names' to pass kwargs
+
+3.20.0
+------
+
+* Add toggle 'dashed' to 'generate_uuid' function
+* Show team and repo badges on README
+
+3.19.0
+------
+
+* Updated from global requirements
+* Improve eventlet check when selecting Event backend
+* Updated from global requirements
+
 3.18.0
 ------
 
+* Add option to not truncate built-ins
 * Create dictutils and add 'flatten_dict_to_keypairs'
 * Updated from global requirements
 * Add reno for release notes management
+* Allow scoped ipv6 addresses
 * Trivial fixes to the usage doc
 * Add threading<->eventlet compatible Event
 * Updated from global requirements
@@ -38,6 +75,7 @@ CHANGES
 ------
 
 * Fix mask_dict_password for non string/dict type key in dict
+* Restore <all-in> operator
 * More unit tests for specs matcher
 * Imported Translations from Zanata
 * Add Python 3.5 classifier and venv
