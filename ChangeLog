@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+3.24.0
+------
+
+* Use Sphinx 1.5 warning-is-error
+* Updated from global requirements
+
 3.23.0
 ------
 

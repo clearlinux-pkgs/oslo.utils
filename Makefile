@@ -1,5 +1,5 @@
 PKG_NAME := oslo.utils
-URL := http://tarballs.openstack.org/oslo.utils/oslo.utils-3.23.0.tar.gz
+URL := http://tarballs.openstack.org/oslo.utils/oslo.utils-3.24.0.tar.gz
 
 
 include ../common/Makefile.common
