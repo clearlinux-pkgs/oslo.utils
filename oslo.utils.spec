@@ -5,11 +5,11 @@
 # Source0 file verified with key 0xC36CDCB4DF00C68C (infra-root@openstack.org)
 #
 Name     : oslo.utils
-Version  : 3.36.4
-Release  : 46
-URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.36.4.tar.gz
-Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.36.4.tar.gz
-Source99 : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.36.4.tar.gz.asc
+Version  : 3.37.0
+Release  : 47
+URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.37.0.tar.gz
+Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.37.0.tar.gz
+Source99 : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.37.0.tar.gz.asc
 Summary  : Oslo Utility library
 Group    : Development/Tools
 License  : Apache-2.0
@@ -24,16 +24,15 @@ Requires: iso8601
 Requires: monotonic
 Requires: netaddr
 Requires: netifaces
+Requires: openstackdocstheme
 Requires: oslo.i18n
 Requires: pbr
 Requires: pyparsing
 Requires: pytz
+Requires: reno
 Requires: six
 BuildRequires : buildreq-distutils3
 BuildRequires : pbr
-BuildRequires : pip
-BuildRequires : python3-dev
-BuildRequires : setuptools
 
 %description
 Team and repository tags
@@ -66,14 +65,14 @@ python3 components for the oslo.utils package.
 
 
 %prep
-%setup -q -n oslo.utils-3.36.4
+%setup -q -n oslo.utils-3.37.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532198980
+export SOURCE_DATE_EPOCH=1536217169
 python3 setup.py build -b py3
 
 %install

@@ -1,6 +1,18 @@
 CHANGES
 =======
 
+3.37.0
+------
+
+* Fix docstring formatting nit in uuidsentinel
+* UUID sentinel
+* Remove moxstubout usage
+* add lib-forward-testing-python3 test job
+* add python 3.6 unit test job
+* import zuul job settings from project-config
+* Update reno for stable/rocky
+* Remove extra copy.deepcopy
+
 3.36.4
 ------
 
