@@ -6,16 +6,16 @@
 #
 Name     : oslo.utils
 Version  : 3.37.1
-Release  : 48
+Release  : 49
 URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.37.1.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.37.1.tar.gz
 Source99 : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.37.1.tar.gz.asc
 Summary  : Oslo Utility library
 Group    : Development/Tools
 License  : Apache-2.0
-Requires: oslo.utils-python3
-Requires: oslo.utils-license
-Requires: oslo.utils-python
+Requires: oslo.utils-license = %{version}-%{release}
+Requires: oslo.utils-python = %{version}-%{release}
+Requires: oslo.utils-python3 = %{version}-%{release}
 Requires: Sphinx
 Requires: debtcollector
 Requires: fixtures
@@ -72,13 +72,13 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1539207123
+export SOURCE_DATE_EPOCH=1541271084
 python3 setup.py build
 
 %install
 rm -rf %{buildroot}
-mkdir -p %{buildroot}/usr/share/doc/oslo.utils
-cp LICENSE %{buildroot}/usr/share/doc/oslo.utils/LICENSE
+mkdir -p %{buildroot}/usr/share/package-licenses/oslo.utils
+cp LICENSE %{buildroot}/usr/share/package-licenses/oslo.utils/LICENSE
 python3 -tt setup.py build  install --root=%{buildroot}
 echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
@@ -89,7 +89,7 @@ echo ----[ mark ]----
 
 %files license
 %defattr(0644,root,root,0755)
-/usr/share/doc/oslo.utils/LICENSE
+/usr/share/package-licenses/oslo.utils/LICENSE
 
 %files python
 %defattr(-,root,root,-)
