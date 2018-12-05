@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+3.38.0
+------
+
+* Expose eventlet Event wrapper class
+* Clean up .gitignore references to personal tools
+
 3.37.1
 ------
 
