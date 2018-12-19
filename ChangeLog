@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+3.39.0
+------
+
+* Don't use monotonic on Python >=3.3
+* Update mailinglist from dev to discuss
+
 3.38.0
 ------
 
