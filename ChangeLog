@@ -1,9 +1,15 @@
 CHANGES
 =======
 
+3.39.1
+------
+
+* Use template for lower-constraints
+
 3.39.0
 ------
 
+* Fix race condition in eventletutils Event
 * Don't use monotonic on Python >=3.3
 * Update mailinglist from dev to discuss
 
