@@ -1,6 +1,10 @@
 CHANGES
 =======
 
+3.40.0
+------
+
+
 3.39.1
 ------
 
@@ -12,6 +16,7 @@ CHANGES
 * Fix race condition in eventletutils Event
 * Don't use monotonic on Python >=3.3
 * Update mailinglist from dev to discuss
+* Support non-dict mappings in mask\_dict\_password
 
 3.38.0
 ------
