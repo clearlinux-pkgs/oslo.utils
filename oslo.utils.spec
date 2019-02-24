@@ -6,7 +6,7 @@
 #
 Name     : oslo.utils
 Version  : 3.40.2
-Release  : 56
+Release  : 57
 URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.40.2.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.40.2.tar.gz
 Source99 : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.40.2.tar.gz.asc
@@ -16,20 +16,16 @@ License  : Apache-2.0
 Requires: oslo.utils-license = %{version}-%{release}
 Requires: oslo.utils-python = %{version}-%{release}
 Requires: oslo.utils-python3 = %{version}-%{release}
-Requires: Sphinx
 Requires: debtcollector
-Requires: fixtures
 Requires: funcsigs
 Requires: iso8601
 Requires: monotonic
 Requires: netaddr
 Requires: netifaces
-Requires: openstackdocstheme
 Requires: oslo.i18n
 Requires: pbr
 Requires: pyparsing
 Requires: pytz
-Requires: reno
 Requires: six
 BuildRequires : buildreq-distutils3
 BuildRequires : pbr
@@ -75,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1549121224
+export SOURCE_DATE_EPOCH=1551028870
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
