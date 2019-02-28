@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+3.40.3
+------
+
+* add python 3.7 unit test job
+* Update hacking version
+
 3.40.2
 ------
 
