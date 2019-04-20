@@ -6,7 +6,7 @@
 #
 Name     : oslo.utils
 Version  : 3.40.3
-Release  : 58
+Release  : 59
 URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.40.3.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.40.3.tar.gz
 Source99 : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.40.3.tar.gz.asc
