@@ -1,11 +1,19 @@
 CHANGES
 =======
 
+3.41.0
+------
+
+* OpenDev Migration Patch
+* Update master for stable/stein
+
 3.40.3
 ------
 
 * add python 3.7 unit test job
 * Update hacking version
+* Mask encryption\_key\_id
+* eventletutils: Optimise EventletEvent.clear()
 
 3.40.2
 ------
