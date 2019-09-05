@@ -1,10 +1,19 @@
 CHANGES
 =======
 
+3.41.1
+------
+
+* Add digestmod when using hmac
+* Add Python 3 Train unit tests
+* Cap Bandit below 1.6.0 and update Sphinx requirement
+* Replace git.openstack.org URLs with opendev.org URLs
+
 3.41.0
 ------
 
 * OpenDev Migration Patch
+* Dropping the py35 testing
 * Update master for stable/stein
 
 3.40.3
