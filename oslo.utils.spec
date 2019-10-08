@@ -5,11 +5,11 @@
 # Source0 file verified with key 0xFC43F0EE211DFED8 (infra-root@openstack.org)
 #
 Name     : oslo.utils
-Version  : 3.41.1
-Release  : 62
-URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.41.1.tar.gz
-Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.41.1.tar.gz
-Source1 : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.41.1.tar.gz.asc
+Version  : 3.41.2
+Release  : 63
+URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.41.2.tar.gz
+Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.41.2.tar.gz
+Source1 : http://tarballs.openstack.org/oslo.utils/oslo.utils-3.41.2.tar.gz.asc
 Summary  : Oslo Utility library
 Group    : Development/Tools
 License  : Apache-2.0
@@ -74,14 +74,14 @@ python3 components for the oslo.utils package.
 
 
 %prep
-%setup -q -n oslo.utils-3.41.1
+%setup -q -n oslo.utils-3.41.2
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1567660492
+export SOURCE_DATE_EPOCH=1570560370
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "

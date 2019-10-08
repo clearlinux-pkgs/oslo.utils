@@ -1,6 +1,13 @@
 CHANGES
 =======
 
+3.41.2
+------
+
+* Support "qemu-img info" virtual size in QEMU 4.1 and later
+* Update TOX/UPPER\_CONSTRAINTS\_FILE for stable/train
+* Update .gitreview for stable/train
+
 3.41.1
 ------
 
