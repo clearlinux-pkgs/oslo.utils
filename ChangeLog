@@ -1,12 +1,13 @@
 CHANGES
 =======
 
-3.41.2
+3.42.0
 ------
 
+* Make mask\_password case insensitive, and add new patterns
+* Update the constraints url
 * Support "qemu-img info" virtual size in QEMU 4.1 and later
-* Update TOX/UPPER\_CONSTRAINTS\_FILE for stable/train
-* Update .gitreview for stable/train
+* Update master for stable/train
 
 3.41.1
 ------
