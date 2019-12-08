@@ -1,10 +1,18 @@
 CHANGES
 =======
 
+3.42.1
+------
+
+* Verify the sanitize keys are lowered
+* Fix invalid escapes in regular expression strings
+* Make mask\_dict\_password case insensitive and add new patterns
+
 3.42.0
 ------
 
 * Make mask\_password case insensitive, and add new patterns
+* tox: Keeping going with docs
 * Update the constraints url
 * Support "qemu-img info" virtual size in QEMU 4.1 and later
 * Update master for stable/train
