@@ -14,6 +14,7 @@ neutron-lib
 nova
 os-brick
 os-win
+os-xenapi
 osc-lib
 oslo.cache
 oslo.concurrency

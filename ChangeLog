@@ -1,18 +1,29 @@
 CHANGES
 =======
 
+4.0.0
+-----
+
+* [ussuri][goal] Drop python 2.7 support and testing
+* tox: Trivial cleanup
+* Ignore releasenote cache within git untracked files
+* trivial: Move setup code into setUp helper
+
 3.42.1
 ------
 
 * Verify the sanitize keys are lowered
 * Fix invalid escapes in regular expression strings
+* Ignore the .eggs directory
 * Make mask\_dict\_password case insensitive and add new patterns
+* Bump the openstackdocstheme extension to 1.20
 
 3.42.0
 ------
 
 * Make mask\_password case insensitive, and add new patterns
 * tox: Keeping going with docs
+* Switch to Ussuri jobs
 * Update the constraints url
 * Support "qemu-img info" virtual size in QEMU 4.1 and later
 * Update master for stable/train
