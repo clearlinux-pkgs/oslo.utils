@@ -1,6 +1,13 @@
 CHANGES
 =======
 
+4.1.0
+-----
+
+* Flatten test case
+* Fix regex to correctly recognize scientific notation with QemuImgInfo
+* imageutils: Report format specific details when using JSON output format
+
 4.0.1
 -----
 
