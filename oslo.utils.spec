@@ -6,7 +6,7 @@
 #
 Name     : oslo.utils
 Version  : 4.1.0
-Release  : 70
+Release  : 71
 URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-4.1.0.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-4.1.0.tar.gz
 Source1  : http://tarballs.openstack.org/oslo.utils/oslo.utils-4.1.0.tar.gz.asc
@@ -103,7 +103,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582910228
+export SOURCE_DATE_EPOCH=1583195215
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "

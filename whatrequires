@@ -2,8 +2,10 @@
 barbican
 castellan
 cinder
+cursive
 glance
 glance_store
+heat
 horizon
 ironic
 ironic-lib
