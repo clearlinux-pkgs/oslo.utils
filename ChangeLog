@@ -1,9 +1,18 @@
 CHANGES
 =======
 
+4.1.1
+-----
+
+* Update hacking for Python3
+* Use unittest.mock instead of third party mock
+* tox: Use upper-constraints for docs jobs
+
 4.1.0
 -----
 
+* Add test to check scientific notation on disk virtual size
+* tests: Convert remaining tests to mock
 * Flatten test case
 * Fix regex to correctly recognize scientific notation with QemuImgInfo
 * imageutils: Report format specific details when using JSON output format

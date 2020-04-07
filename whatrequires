@@ -1,25 +1,22 @@
 # This file contains recursive sources that require this package
-barbican
 castellan
 cinder
 cursive
-glance
 glance_store
 heat
-horizon
 ironic
 ironic-lib
 keystone
 keystonemiddleware
 neutron
 neutron-lib
-nova
 os-brick
 os-win
 os-xenapi
 osc-lib
 oslo.cache
 oslo.concurrency
+oslo.db
 oslo.log
 oslo.messaging
 oslo.middleware
@@ -33,8 +30,11 @@ osprofiler
 ovsdbapp
 pypowervm
 python-barbicanclient
+python-ceilometerclient
+python-cinderclient
 python-designateclient
 python-glanceclient
+python-heatclient
 python-keystoneclient
 python-magnumclient
 python-manilaclient
@@ -46,7 +46,6 @@ python-saharaclient
 python-senlinclient
 python-troveclient
 python-zaqarclient
-sahara
 taskflow
 tempest
 tooz
