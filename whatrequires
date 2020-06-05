@@ -3,7 +3,6 @@ castellan
 cinder
 cursive
 glance_store
-heat
 ironic
 ironic-lib
 keystone
@@ -20,6 +19,7 @@ oslo.db
 oslo.log
 oslo.messaging
 oslo.middleware
+oslo.policy
 oslo.privsep
 oslo.reports
 oslo.serialization

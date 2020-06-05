@@ -1,6 +1,19 @@
 CHANGES
 =======
 
+4.2.0
+-----
+
+* Stop to use the \_\_future\_\_ module
+* Fix hacking min version to 3.0.1
+* Switch to newer openstackdocstheme and reno versions
+* Remove the unused coding style modules
+* Remove translation sections from setup.cfg
+* Remove monotonic usage
+* Imported Translations from Zanata
+* Add release notes links to doc index
+* Update master for stable/ussuri
+
 4.1.1
 -----
 
