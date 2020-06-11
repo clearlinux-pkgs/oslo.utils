@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+4.2.1
+-----
+
+* Release greenthread when computing checksum
+* Fix pygments style
+
 4.2.0
 -----
 
