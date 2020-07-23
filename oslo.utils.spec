@@ -5,11 +5,11 @@
 # Source0 file verified with key 0xC12B8E73B30F2FC8 (infra-root@openstack.org)
 #
 Name     : oslo.utils
-Version  : 4.2.2
-Release  : 75
-URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-4.2.2.tar.gz
-Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-4.2.2.tar.gz
-Source1  : http://tarballs.openstack.org/oslo.utils/oslo.utils-4.2.2.tar.gz.asc
+Version  : 4.3.0
+Release  : 76
+URL      : http://tarballs.openstack.org/oslo.utils/oslo.utils-4.3.0.tar.gz
+Source0  : http://tarballs.openstack.org/oslo.utils/oslo.utils-4.3.0.tar.gz
+Source1  : http://tarballs.openstack.org/oslo.utils/oslo.utils-4.3.0.tar.gz.asc
 Summary  : Oslo Utility library
 Group    : Development/Tools
 License  : Apache-2.0
@@ -21,6 +21,7 @@ Requires: iso8601
 Requires: netaddr
 Requires: netifaces
 Requires: oslo.i18n
+Requires: packaging
 Requires: pbr
 Requires: pyparsing
 Requires: pytz
@@ -31,6 +32,7 @@ BuildRequires : iso8601
 BuildRequires : netaddr
 BuildRequires : netifaces
 BuildRequires : oslo.i18n
+BuildRequires : packaging
 BuildRequires : pbr
 BuildRequires : pyparsing
 BuildRequires : pytz
@@ -67,6 +69,7 @@ Requires: pypi(iso8601)
 Requires: pypi(netaddr)
 Requires: pypi(netifaces)
 Requires: pypi(oslo.i18n)
+Requires: pypi(packaging)
 Requires: pypi(pbr)
 Requires: pypi(pyparsing)
 Requires: pypi(pytz)
@@ -77,15 +80,15 @@ python3 components for the oslo.utils package.
 
 
 %prep
-%setup -q -n oslo.utils-4.2.2
-cd %{_builddir}/oslo.utils-4.2.2
+%setup -q -n oslo.utils-4.3.0
+cd %{_builddir}/oslo.utils-4.3.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1593467564
+export SOURCE_DATE_EPOCH=1595516283
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
@@ -98,7 +101,7 @@ python3 setup.py build
 export MAKEFLAGS=%{?_smp_mflags}
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/oslo.utils
-cp %{_builddir}/oslo.utils-4.2.2/LICENSE %{buildroot}/usr/share/package-licenses/oslo.utils/57aed0b0f74e63f6b85cce11bce29ba1710b422b
+cp %{_builddir}/oslo.utils-4.3.0/LICENSE %{buildroot}/usr/share/package-licenses/oslo.utils/57aed0b0f74e63f6b85cce11bce29ba1710b422b
 python3 -tt setup.py build  install --root=%{buildroot}
 echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :

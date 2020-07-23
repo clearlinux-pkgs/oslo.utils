@@ -1,6 +1,11 @@
 CHANGES
 =======
 
+4.3.0
+-----
+
+* versionutils: switch from pkg\_resources to packaging
+
 4.2.2
 -----
 
@@ -21,6 +26,7 @@ CHANGES
 * Remove the unused coding style modules
 * Remove translation sections from setup.cfg
 * Remove monotonic usage
+* Align contributing doc with oslo's policy
 * Imported Translations from Zanata
 * Add release notes links to doc index
 * Update master for stable/ussuri
