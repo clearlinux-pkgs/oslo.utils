@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+4.5.0
+-----
+
+* Add util methods for checking json and yaml formatted file
+* Bump bandit version
+
 4.4.0
 -----
 
