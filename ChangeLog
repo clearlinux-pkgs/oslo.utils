@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+4.6.0
+-----
+
+* [goal] Migrate testing to ubuntu focal
+* Fix is\_same\_callback() testing for python3.8
+
 4.5.0
 -----
 
